@@ -6,13 +6,11 @@ double area;
 public Square(double sideA){
     this.sideA=sideA;
 }
-
     public double getArea() {
         return sideA*sideA;
     }
-
     @Override
     public String toString() {
-        return "square = " + getArea();
+        return "square =" + getArea();
     }
 }

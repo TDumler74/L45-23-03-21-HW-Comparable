@@ -10,4 +10,8 @@ public class Circle extends Area {
     public   double getArea() {
         return radius*radius*3.14;
     }
+    @Override
+    public String toString() {
+        return "circle = " + getArea() ;
+                    }
 }
