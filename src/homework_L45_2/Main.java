@@ -35,8 +35,9 @@ public class Main {
         shapes.add(new Square(12));
 
         Collections.sort(shapes);
-
         System.out.println(shapes);
+
+        //[square = 1.0, circle = 12.56, rectagle = 20.0, rectagle = 40.0, circle = 78.5, square = 144.0]
 
 
 
